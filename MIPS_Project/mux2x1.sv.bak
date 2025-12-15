@@ -1,0 +1,13 @@
+module mux2x1(
+	input logic a,b //Inputs
+	input logic sel // Select line
+	output logic y // Output
+);
+
+	always_comb begin
+		if (sel == 0)
+			y = a;
+		else
+			y = b; 
+	end
+endmodule

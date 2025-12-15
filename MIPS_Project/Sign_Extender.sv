@@ -1,0 +1,14 @@
+module Sign_Extender #(parameter WIDTH = 16)(
+	input logic IsSigned,
+	input logic [WIDTH-1:0] input_data,
+	output logic [2*WIDTH-1:0] output_data
+);
+
+	 always_comb begin
+        if(IsSigned == 1)
+			output_data = ({{WIDTH{input_data[WIDTH-1]}}, input_data});
+		  else
+			output_data = {{WIDTH{1'b0}}, input_data};    
+	end
+	 
+endmodule

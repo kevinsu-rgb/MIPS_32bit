@@ -1,0 +1,17 @@
+module registerfile (
+	input logic clk,
+	input logic rst,
+	input logic [4:0] rd_addr0;
+	input logic [4:0] rd_addr1;
+	input logic [4:0] wr_addr;
+	input logic wr_en;
+	input logic wr_data [31:0];
+	output logic [31:0] rd_data0;
+	output logic [31:0] rd_data;
+	output logic JumpAndLink
+);
+	logic [31:0] regs [0:31];
+	always_ff @(posedge clk or posedge rst) begin
+		if(re
+
+endmodule

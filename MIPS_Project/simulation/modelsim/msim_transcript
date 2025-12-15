@@ -1,0 +1,203 @@
+# Reading pref.tcl
+# do MIPS_Project_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/mux2x1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:09 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/mux2x1.sv 
+# -- Compiling module mux2x1
+# 
+# Top level modules:
+# 	mux2x1
+# End time: 15:15:09 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/mux4x1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:09 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/mux4x1.sv 
+# -- Compiling module mux4x1
+# 
+# Top level modules:
+# 	mux4x1
+# End time: 15:15:09 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/reg_noEN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:09 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/reg_noEN.sv 
+# -- Compiling module reg_noEN
+# 
+# Top level modules:
+# 	reg_noEN
+# End time: 15:15:09 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/register.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:09 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/register.sv 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 15:15:09 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/Sign_Extender.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:09 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/Sign_Extender.sv 
+# -- Compiling module Sign_Extender
+# 
+# Top level modules:
+# 	Sign_Extender
+# End time: 15:15:09 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:09 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 15:15:09 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/MIPS_Memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:10 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/MIPS_Memory.sv 
+# -- Compiling module MIPS_Memory
+# 
+# Top level modules:
+# 	MIPS_Memory
+# End time: 15:15:10 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/registerfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:10 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/registerfile.sv 
+# -- Compiling module registerfile
+# 
+# Top level modules:
+# 	registerfile
+# End time: 15:15:10 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/Datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:10 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 15:15:10 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/ALU_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:10 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/ALU_controller.sv 
+# -- Compiling module ALU_controller
+# 
+# Top level modules:
+# 	ALU_controller
+# End time: 15:15:10 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/Controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:10 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/Controller.sv 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 15:15:10 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/top_level.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:10 on Aug 31,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project" C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/top_level.sv 
+# -- Compiling module top_level
+# 
+# Top level modules:
+# 	top_level
+# End time: 15:15:10 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/RAM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:10 on Aug 31,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity RAM
+# -- Compiling architecture SYN of ram
+# End time: 15:15:10 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/top_level_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:15:18 on Aug 31,2025
+# vlog -reportprogress 300 -work work C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/top_level_tb.sv 
+# -- Compiling module top_level_tb
+# 
+# Top level modules:
+# 	top_level_tb
+# End time: 15:15:18 on Aug 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.top_level_tb
+# vsim -gui -l msim_transcript work.top_level_tb 
+# Start time: 15:15:25 on Aug 31,2025
+# Loading sv_std.std
+# Loading work.top_level_tb
+# Loading work.top_level
+# Loading work.Datapath
+# Loading work.register
+# Loading work.mux2x1
+# Loading work.MIPS_Memory
+# Loading work.mux4x1
+# Loading work.Sign_Extender
+# Loading work.registerfile
+# Loading work.ALU
+# Loading work.reg_noEN
+# Loading work.ALU_controller
+# Loading work.Controller
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.ram(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+add wave -position insertpoint  \
+sim:/top_level_tb/WIDTH \
+sim:/top_level_tb/CLK_PERIOD \
+sim:/top_level_tb/clk \
+sim:/top_level_tb/rst \
+sim:/top_level_tb/buttons \
+sim:/top_level_tb/switches \
+sim:/top_level_tb/Output_Port
+add wave -position insertpoint  \
+sim:/top_level_tb/UUT/Controller_module/state \
+sim:/top_level_tb/UUT/Controller_module/next_state
+add wave -position insertpoint  \
+sim:/top_level_tb/UUT/DataPath_Module/Register_File/regs
+run -all
+# All tests completed.
+# ** Note: $finish    : C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/top_level_tb.sv(35)
+#    Time: 5025 ns  Iteration: 1  Instance: /top_level_tb
+# 1
+# Break in Module top_level_tb at C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/top_level_tb.sv line 35
+# End time: 15:16:00 on Aug 31,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0

@@ -1,0 +1,20 @@
+
+State Machine - |top_level|Controller:Controller_module|state
+Name state.BranchC2 state.BranchC1 state.JUMPANDLINKC1 state.JUMPTOAC1 state.JUMP_C1 state.STORE_C2 state.STORE_C1 state.LOAD_C3 state.LOAD_C2 state.LOAD_C1 state.I_C2 state.I_C1 state.R_C2 state.R_C1 state.IDFR state.IF_C2 state.IF_C1 
+state.IF_C1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.IF_C2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.IDFR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.R_C1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.R_C2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.I_C1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.I_C2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.LOAD_C1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.LOAD_C2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.LOAD_C3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.STORE_C1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.STORE_C2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.JUMP_C1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JUMPTOAC1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JUMPANDLINKC1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.BranchC1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.BranchC2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

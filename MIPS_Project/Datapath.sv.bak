@@ -1,0 +1,29 @@
+module Datapath #(
+    parameter int WIDTH = 32
+)(
+    input  logic               clk,
+    input  logic               rst,
+    input  logic               Inport0En,
+    input  logic               Inport1En,
+    input  logic [9:0]         inport_in,
+    input  logic               PCWriteCond,
+    input  logic               PCWrite,
+    input  logic               IorD,
+    input  logic               MemRead,
+    input  logic               MemWrite,
+    input  logic               MemToReg,
+    input  logic               IRWrite,
+    input  logic               JumpAndLink,
+    input  logic               IsSigned,
+    input  logic [1:0]         PCSource,
+    input  logic [5:0]         ALUOp,
+    input  logic [1:0]         ALUSrcB,
+    input  logic               ALUSrcA,
+    input  logic               RegWrite,
+    input  logic               RegDst,
+    output logic [31:0]        IO_out,
+    output logic [5:0]         IR31_26,
+    output logic [5:0]         IR5_0
+);
+
+endmodule

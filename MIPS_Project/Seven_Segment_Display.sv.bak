@@ -1,0 +1,42 @@
+module Seven_Segment_Display(
+	input logic in[3:0],
+	output logic out[7:0]
+);
+
+	always_comb begin
+		if(in = "0000")
+			out = "01000000"; // 0
+		if else(in = "0001")
+			out = "01111001"; // 1
+		if else(in = "0010")
+			out = "00100100"; // 2
+		if else(in = "0011") 
+			out = "00110000";
+		if else(in = "0100") 
+			out =  "00011001";
+		if else(in = "0101") 
+			out =  "00010010";
+		if else(in = "0110") 
+			out =  "00000010";
+		if else(in = "0111") 
+			out =  "01111000";
+		if else(in = "1000") 
+			out =  "00000000";
+		if else(in = "1001") 
+			out =  "00011000";
+		if else(in = "1010") 
+			out =  "00001000";
+		if else(in = "1011") 
+			out =  "00000011";
+		if else(in = "1100") 
+			out =  "01000110";
+		if else(in = "1101") 
+			out =  "00100001";
+		if else(in = "1110") 
+			out =  "00000110";
+		if else(in = "1111") 
+			out =  "00001110";
+		else
+			out = "01111111";
+		end
+endmodule

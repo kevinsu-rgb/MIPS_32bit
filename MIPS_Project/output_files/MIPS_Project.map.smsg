@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Controller.sv(60): always construct contains both blocking and non-blocking assignments File: C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/Controller.sv Line: 60

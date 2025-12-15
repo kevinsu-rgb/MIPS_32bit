@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/kevin/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/EEL4712C_Verilog/MIPS_Project/RAM.v}
+vlog -sv -work work +incdir+C:/Users/kevin/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/EEL4712C_Verilog/MIPS_Project/mux4x1.sv}
+vlog -sv -work work +incdir+C:/Users/kevin/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/EEL4712C_Verilog/MIPS_Project/register.sv}
+vlog -sv -work work +incdir+C:/Users/kevin/EEL4712C_Verilog/MIPS_Project {C:/Users/kevin/EEL4712C_Verilog/MIPS_Project/MIPS_Memory.sv}
+

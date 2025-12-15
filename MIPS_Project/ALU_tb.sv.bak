@@ -1,0 +1,35 @@
+module ALU_tb;
+
+  logic [31:0] input1, input2;
+  logic [4:0]  IR, OP_SELECT;
+  logic [31:0] Result, Result_Hi;
+  logic        Branch_Taken;
+
+  ALU uut (
+    .input1(input1),
+    .input2(input2),
+    .IR(IR),
+    .OP_SELECT(OP_SELECT),
+    .Result(Result),
+    .Result_Hi(Result_Hi),
+    .Branch_Taken(Branch_Taken)
+  );
+
+  initial begin
+    input1 = 32'd10;
+    input2 = 32'd15;
+    OP_SELECT = 5'b00000; // ADD
+    #10;
+    assert(Result == 32'd25) else $fatal("ADD failed");
+
+    input1 = 32'd25;
+    input2 = 32'd10;
+    OP_SELECT = 5'b00001; // SUB
+    #10;
+    assert(Result == 32'd15) else $fatal("SUB failed");
+
+    $display("All tests passed.");
+    $finish;
+  end
+
+endmodule

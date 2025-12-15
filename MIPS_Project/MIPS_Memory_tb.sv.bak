@@ -1,0 +1,7 @@
+`timescale 10ns/1ps
+
+module MIPS_Memory_tb;
+
+  localparam int WIDTH = 32;
+  
+endmodule

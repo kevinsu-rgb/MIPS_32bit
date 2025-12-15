@@ -1,0 +1,49 @@
+
+
+C:/Users/kevin/EEL4712C_Verilog/MIPS_Project/RAM.vhd
+
+Jul 20 11AM:13:53>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+RAM.v
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+C:/Users/kevin/EEL4712C_Verilog/MIPS_Project/RAM.vhd
+
+Jul 20 11AM:15:00>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+RAM.v
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/RAM.vhd
+
+Aug 15 08PM:15:59>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+RAM.v
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+C:/Users/kevin/K_Documents/EEL4712C_Verilog/MIPS_Project/RAM.vhd
+
+Aug 15 08PM:34:50>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+RAM.v
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?

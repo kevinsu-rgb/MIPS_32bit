@@ -1,0 +1,23 @@
+module Controller #(
+    parameter int WIDTH = 32
+)(
+	input logic clk, 
+	input logic rst,
+	input logic [5:0] IR31_26,
+	input logic [5:0] IR5_0,
+	input logic PCWriteCond, 
+	PCWrite          : out  std_logic;
+	IorD             : out  std_logic;
+	MemRead	  			: out  std_logic;
+	MemWrite         : out  std_logic;
+	MemToReg         : out  std_logic;
+	IRWrite          : out  std_logic;
+	JumpAndLink      : out  std_logic;
+	IsSigned        	: out  std_logic;
+	PCSource         : out  std_logic_vector(1 downto 0);
+	ALUOp            : out  std_logic_vector(5 downto 0);
+	ALUSrcB          : out  std_logic_vector(1 downto 0);
+	ALUSrcA          : out  std_logic;
+	RegWrite         : out  std_logic;
+	RegDst           : out  std_logic
+);

@@ -1,0 +1,17 @@
+module mux4x1(
+	input logic a,b,c,d //Inputs
+	input logic sel[1:0], // Select line
+	output logic y // Output
+);
+
+	 always_comb begin
+        case (sel)
+            2'b00: y = a;
+            2'b01: y = b;
+            2'b10: y = c;
+            2'b11: y = d;
+            default: y = 1'b0; // Optional default
+        endcase
+    end
+	 
+endmodule

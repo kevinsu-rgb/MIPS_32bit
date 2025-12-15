@@ -1,0 +1,13 @@
+module  top_level_final #(parameter WIDTH = 32)(
+	input logic clk, rst,
+	input logic [1:0] buttons,
+	input logic [9:0] switches,
+	output logic [7:0] display0,
+	output logic [7:0] display1
+);
+	logic [9:0] switch_signal;
+	logic [31:0] output_signal;
+	
+	assign switch_signal = 1'b0 & switches[8:0];
+
+endmodule
