@@ -7,7 +7,9 @@ To compile and utliize Assembler:
 
 Supported instructions:
 "addu", Add Unsigned, EX: addu $s1, $zero, $zero;
+
 "addiu", Add Unsigned Immediate, EX: addiu $s1, $s1, 4;
+
 "subu", Subtract Unsigned, EX: subu $s7, $s6, $s4;
 "subiu", Subtract Immediate Unsigned, EX: subiu $s7, $s6, 4;
 "mult", Multiply Signed, EX: mult $s3, $s2;
