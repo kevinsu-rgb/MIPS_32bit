@@ -43,6 +43,9 @@ Supported instructions:
 - "bltz", Branch if Less Than Zero, EX: bltz $s1, label;
 - "bgez", Branch if Greater Than or Equal to Zero, EX: bgez $s1, label;
 
+![test](2-MIPSgeneralArch.pdf)
+
+
 - "j", Jump, EX: j label;
 - "jal", Jump and Link, EX: jal function;
 - "jr", Jump Register, EX: jr $ra;
